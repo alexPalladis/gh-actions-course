@@ -13,8 +13,8 @@ jobs:
         with:
           node-version: '24.x'
       - name: Install Dependencies
-        working-directory: 04-using-actions/react-app
+        working-directory: 04-using-actions/my-app
         run: npm ci
       - name: Run Unit Tests
-        working-directory: 04-using-actions/react-app
+        working-directory: 04-using-actions/my-app
         run: npm run test
